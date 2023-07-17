@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Test-repo
+  annotations:
+    github.com/project-slug: Culgdot-Org/Test-repo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: other
+  lifecycle: unknown
+  owner: culgdot+gitorg
